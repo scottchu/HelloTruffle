@@ -2,5 +2,13 @@
   "name": "HelloTruffle",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.11"
+  },
+  "scripts": {
+    "ganache-cli": "ganache-cli",
+    "truffle": "truffle"
+  }
 }
